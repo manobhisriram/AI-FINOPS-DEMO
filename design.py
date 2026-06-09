@@ -33,25 +33,13 @@ st.markdown("""
 html, body, [class*="css"] { font-family: 'Sora', sans-serif; }
 
 .main { background: #0a0a0f; }
-.block-container {
-    padding-top: 1rem;
-    padding-right: 2rem;
-    padding-bottom: 1rem;
-    padding-left: 1rem;
-    max-width: 100%;
-}
-section[data-testid="stSidebar"] {
-    min-width: 320px;
-    max-width: 320px;
-}
+.block-container { padding: 1.5rem 2rem; max-width: 1400px; }
 
 .hero-title {
-    font-size: 2.3rem;
-    font-weight: 800;
-    color: #f8fafc;
-    margin: 0;
-    padding: 0;
-    line-height: 1.2;
+    font-size: 2.1rem; font-weight: 700; letter-spacing: -0.03em;
+    background: linear-gradient(135deg, #e2e8f0 0%, #94a3b8 100%);
+    -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+    margin-bottom: 0.1rem;
 }
 .hero-sub {
     font-size: 0.85rem; color: #64748b; letter-spacing: 0.05em;
