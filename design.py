@@ -33,7 +33,17 @@ st.markdown("""
 html, body, [class*="css"] { font-family: 'Sora', sans-serif; }
 
 .main { background: #0a0a0f; }
-.block-container { padding: 1.5rem 2rem; max-width: 1400px; }
+.block-container {
+    padding-top: 1.5rem;
+    padding-right: 2rem;
+    padding-bottom: 1.5rem;
+    padding-left: 5rem;
+    max-width: 1400px;
+}
+section[data-testid="stSidebar"] {
+    min-width: 320px;
+    max-width: 320px;
+}
 
 .hero-title {
     font-size: 2.1rem; font-weight: 700; letter-spacing: -0.03em;
