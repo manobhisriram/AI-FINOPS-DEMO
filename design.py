@@ -46,10 +46,14 @@ section[data-testid="stSidebar"] {
 }
 
 .hero-title {
-    font-size: 2.1rem; font-weight: 700; letter-spacing: -0.03em;
-    background: linear-gradient(135deg, #e2e8f0 0%, #94a3b8 100%);
-    -webkit-background-clip: text; -webkit-text-fill-color: transparent;
-    margin-bottom: 0.1rem;
+    font-size: 2.3rem;
+    font-weight: 800;
+    letter-spacing: 0;
+    color: #f8fafc;
+    margin-bottom: 0.25rem;
+    line-height: 1.2;
+    padding-left: 8px;
+    text-shadow: 0 0 12px rgba(255,255,255,0.08);
 }
 .hero-sub {
     font-size: 0.85rem; color: #64748b; letter-spacing: 0.05em;
