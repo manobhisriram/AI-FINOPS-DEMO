@@ -34,11 +34,11 @@ html, body, [class*="css"] { font-family: 'Sora', sans-serif; }
 
 .main { background: #0a0a0f; }
 .block-container {
-    padding-top: 1.5rem;
+    padding-top: 1rem;
     padding-right: 2rem;
-    padding-bottom: 1.5rem;
-    padding-left: 5rem;
-    max-width: 1400px;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    max-width: 100%;
 }
 section[data-testid="stSidebar"] {
     min-width: 320px;
@@ -48,12 +48,10 @@ section[data-testid="stSidebar"] {
 .hero-title {
     font-size: 2.3rem;
     font-weight: 800;
-    letter-spacing: 0;
     color: #f8fafc;
-    margin-bottom: 0.25rem;
+    margin: 0;
+    padding: 0;
     line-height: 1.2;
-    padding-left: 8px;
-    text-shadow: 0 0 12px rgba(255,255,255,0.08);
 }
 .hero-sub {
     font-size: 0.85rem; color: #64748b; letter-spacing: 0.05em;
